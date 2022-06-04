@@ -24,17 +24,17 @@ FoxPro, Delphi,  CorelDraw, Photoshop, HTML, CSS, Git.
 
 
 ***Примеры кода:*** [Задача с Codewars](https://www.codewars.com/kata/52597aa56021e91c93000cb0 "Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.")
+```
 function moveZeros(arr) {
   let arr_new = [];  
   arr.reverse().forEach(element => {
     element === 0? arr_new.push(element) : arr_new.unshift(element);
   });  
   return arr_new;
-  
 }
+```
+
+***Образование:*** АГАУ "Экономика и управление в отраслях АПК".
 
 
-***Образование:*** АГАУ "Экономика и управление в отраслях АПК" (если это имелось в виду)
-
-
-*Английский язык:* Вероятно Pre-Intermediate. Читаю статьи на английском с помощью переводчика. Как минимум, уверенный пользователь Google Translate.
+***Английский язык:*** Вероятно Pre-Intermediate. Читаю статьи на английском с помощью переводчика. Как минимум, уверенный пользователь Google Translate.
