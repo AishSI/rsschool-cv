@@ -6,7 +6,6 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>cv</title>
-   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
    <link rel="stylesheet" href="style.css">
    <link rel="icon" href="./assets/img/32x32.png">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -150,25 +149,23 @@
                   <div class="section__title__wrapper">
                      <h2 class="section__title section__title__code">Code example</h2>
                   </div>
-                  <a href="https://www.codewars.com/kata/52597aa56021e91c93000cb0"
-                     title="Codewars task: Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.">
+                  <a href="https://www.codewars.com/kata/52597aa56021e91c93000cb0" id="code__link" class="tooltip">
+                     <span class="tooltiptext">Codewars task: Write an algorithm that takes an array and moves all of
+                        the zeros to the end, preserving the
+                        order of the other elements.</span>
                      <pre class="pre__code">
                         <code class="code__js">
       function <span class="js__function__name">moveZeros</span>(arr) {
          let <span class="js__function__name">arr_new</span> <span class="js__comparsion">=</span> <span class="js__sign">[]</span>;
          <span class="js__function__name">arr</span>.<span class="js__function__name">reverse</span><span class="js__sign">()</span>.<span class="js__function__name">forEach</span><span class="js__sign">(</span>element =&gt; <span class="js__staple">{</span>
             <span class="js__function__name">element</span> <span class="js__comparsion">===</span> <span class="js__staple">0</span> <span class="js__comparsion">?</span> <span class="js__function__name">arr_new</span>.<span class="js__function__name">push</span>(<span class="js__function__name">element</span>) <span class="js__comparsion">:</span> <span class="js__function__name">arr_new</span>.<span class="js__function__name">unshift</span>(<span class="js__function__name">element</span>);
-            <span class="js__staple">}</span><span class="js__sign">)</span>;  
-            <span class="js__comparsion">return</span> <span class="js__function__name">arr_new</span>;
+         <span class="js__staple">}</span><span class="js__sign">)</span>;  
+         <span class="js__comparsion">return</span> <span class="js__function__name">arr_new</span>;
+      }
                               </code>
                            </pre>
                   </a>
                </section>
-               <!-- 
-                     <section class="section" id="projects">
-                        <h2 class="section__title">Ссылки на выполненные проекты.</h2>
-                     </section>
-                  -->
 
                <section class="section" id="english">
                   <div class="section__title__wrapper">
