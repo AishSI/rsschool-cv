@@ -211,23 +211,23 @@ h1.section__title {
 }
 
 .skill__html {
-   background-image: url(/assets/img/html.png);
+   background-image: url(./assets/img/html.png);
 }
 
 .skill__css {
-   background-image: url(/assets/img/css.png);
+   background-image: url(./assets/img/css.png);
 }
 
 .skill__js {
-   background-image: url(/assets/img/js.png);
+   background-image: url(./assets/img/js.png);
 }
 
 .skill__github {
-   background-image: url(/assets/img/github.png);
+   background-image: url(./assets/img/github.png);
 }
 
 .skill__figma {
-   background-image: url(/assets/img/figma.png);
+   background-image: url(./assets/img/figma.png);
 }
 
 
@@ -313,7 +313,7 @@ h1.section__title {
    font-family: Montserrat;
    color: var(--main-color-gamma-0);
    background: no-repeat left center;
-   background-image: url(/assets/img/dictionary.png);
+   background-image: url(./assets/img/dictionary.png);
 }
 
 
